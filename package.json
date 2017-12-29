@@ -6,7 +6,7 @@
   "main": "./src/js/adapter_core.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webrtc/adapter.git"
+    "url": "https://github.com/opapirnyk/adapter.git"
   },
   "authors": [
     "The WebRTC project authors (https://www.webrtc.org/)"

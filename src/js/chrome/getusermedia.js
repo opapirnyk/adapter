@@ -25,6 +25,7 @@ module.exports = function(window) {
         return;
       }
       var r = (typeof c[key] === 'object') ? c[key] : {ideal: c[key]};
+      if (r === null) return;
       if (r.exact !== undefined && typeof r.exact === 'number') {
         r.min = r.max = r.exact;
       }
